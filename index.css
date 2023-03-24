@@ -1,6 +1,4 @@
-/*importing google font Montserrat*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap'); /*importing google font Montserrat*/
 
 /*this feature is going to be applied to every element on the web page*/
 * {
@@ -33,7 +31,6 @@ body {
 .navbar .navbar-toggler:focus {
     box-shadow: none
 }
-
 
 .container .product-item {
     min-height: 450px;
