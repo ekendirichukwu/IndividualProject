@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap'); /*importing google font Montserrat*/
 
+/*this feature is going to be applied to every element on the web page*/
 * {
     padding: 0;
     margin: 0;
@@ -7,33 +8,28 @@
     font-family: 'Montserrat', sans-serif
 }
 
+/*this feature affects anything under the <body> tag in the html, so here I am changing the background color*/
 body {
     background-color: bisque
 }
 
+/*this feature affects anything under the container class in html,so here I am setting the margin*/
 .container {
     margin: 30px auto
 }
 
+/*adding features to the navigation links in the nav bar*/
 .navbar-nav .nav-link {
-    color: #000 !important;
-    padding: 0.5rem 0rem !important;
+    color: #000 !important;/*the '!important' rule is used to override any style applied to the link text elsewhere in the css*/
+    padding: 0.5rem 0rem !important;/*the '!important' rule is used to override any style applied to padding elsewhere in the css*/
     border-color: transparent;
     margin-left: 1.5rem;
     transition: none
 }
 
+/*adding features to the focused state of a button with the class navbar-toggler.*/
 .navbar .navbar-toggler:focus {
     box-shadow: none
-}
-
-.navbar-nav .nav-link.active, 
-.border-red {
-    border-bottom: 3px solid #b71c1c
-}
-
-.navbar-nav .nav-link:hover {
-    border-bottom: 3px solid #b71c1c
 }
 
 .container .product-item {
@@ -120,16 +116,6 @@ body {
 
 .fw-800 {
     font-weight: 800
-}
-
-.bg-green {
-    background-color: #208f20 !important;
-    color: #fff
-}
-
-.bg-black {
-    background-color: #1f1d1d;
-    color: #fff
 }
 
 .bg-red {
